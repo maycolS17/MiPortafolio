@@ -1,256 +1,311 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="/MiPortafolio/IMAGENES/seo.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="/MiPortafolio/IMAGENES/seo.png"
+      type="image/x-icon"
+    />
     <title>Mi Portafolio</title>
-</head>
-<body>
-    <!--AQUI ESTARA MI MENU ENCABEZADO-->
+  </head>
+  <body>
     <div class="contenedor-header">
-        <header>
-                <div class="logo">
-                    <a href="#">MAYCOL</a>
-                </div>
-                <nav id="nav">
-                    <ul>
-                        <li><a href="#inicio" onclick="selecionar()">INICIO</a></li>
-                        <li><a href="#sobremi" onclick="selecionar()">SOBRE MI</a></li>
-                        <li><a href="#curriculum" onclick="selecionar()">CURRICULUM</a></li>
-                        <li><a href="#contacto" onclick="selecionar()">CONTACTO</a></li>
-                    </ul>
-                </nav>
-                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-        </header>
+      <header>
+        <div class="logo">
+          <a href="#">MAYCOL</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="selecionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="selecionar()">SOBRE MI</a></li>
+            <li><a href="#curriculum" onclick="selecionar()">CURRICULUM</a></li>
+            <li><a href="#contacto" onclick="selecionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
     </div>
 
-    <!--AQUI IRA LA SECCION DE INICIO-->
     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="/MiPortafolio/IMAGENES/FOTODIGITAL_DELACRUZCIELO_MAYCOL.jpg" alt="">
-                <h1>MAYCOL DE LA CRUZ</h1>
-                <h2>Programador Junior</h2>
-                <div class="redes">
-                    <a href="https://www.linkedin.com/in/maycol-de-la-cruz-4b5641213"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/maycolS17"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://youtu.be/adLIw53FI68"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img
+            src="/MiPortafolio/IMAGENES/FOTODIGITAL_DELACRUZCIELO_MAYCOL.jpg"
+            alt=""
+          />
+          <h1>MAYCOL DE LA CRUZ</h1>
+          <h2>Full Stack Developer</h2>
+          <div class="redes">
+            <a
+              href="https://linkedin.com/in/maycol-steven-de-la-cruz-cielo-877622371"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/maycolS17"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://youtu.be/adLIw53FI68"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!--AQUI ESTA LA SECCION DONDE HABLARE SOBRE MI-->
     <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, Mi Nombre es Maycol de la Cruz</span> Soy un joven profesional con 
-                experiencia en entornos laborales 
-                dinámicos. Mi habilidad para tomar 
-                decisiones y comunicarme 
-                efectivamente con los demás me ha 
-                permitido destacar en mi trabajo. 
-                Además, estoy acostumbrado a 
-                trabajar bajo presión, lo que me 
-                impulsa a dar lo mejor de mí en cada 
-                situación. 
-                 
-                Una de mis pasiones es mantenerme 
-                bien informado sobre mi campo 
-                laboral. Creo firmemente que el 
-                conocimiento es clave para el éxito 
-                en cualquier entorno profesional. Por 
-                lo tanto, siempre estoy al tanto de las 
-                últimas tendencias, productos y 
-                estrategias que puedan beneficiar a 
-                mi equipo y a mi empresa. </p>
-            <div class="fila">
-                <!--aqui iran mis datos personales-->
-                <div class="col">
-                    <h3>Datos personales</h3>
-                    <ul>
-                        <li>
-                            <strong>Cumpleaños:</strong>
-                            28/05/2003
-                        </li>
-                        <li>
-                            <strong>Correo:</strong>
-                            maycolsteven55@gmail.com
-                        </li>
-                        <li>
-                            <strong>Telefono:</strong>
-                            +51 912314640
-                        </li>
-                    </ul>
-                </div>
-    
-                <div class="col">
-                    <!--aqui iran mis intereses-->
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-futbol"></i>
-                            <span>FUTBOL</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-laptop"></i>
-                            <span>PROGRAMAR</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-motorcycle"></i>
-                            <span>MANEJAR MOTO</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, Mi Nombre es Maycol de la Cruz</span>Estudiante de
+          Computación Informática en el Instituto IDAT, con formación como
+          Desarrollador Full Stack, orientado a la creación de aplicaciones web
+          modernas, escalables y bien estructuradas. Cuento con experiencia en
+          C#, ASP.NET MVC y ASP.NET Core, desarrollando APIs REST y aplicaciones
+          web utilizando Entity Framework, aplicando principios de arquitectura
+          limpia, buenas prácticas de desarrollo (SOLID, DRY) y patrones de
+          diseño. Poseo sólidos conocimientos en Frontend con Angular,
+          trabajando con TypeScript, HTML, CSS y Bootstrap, integrando
+          aplicaciones con Strapi CMS mediante consumo directo de su API REST
+          para la gestión de contenido dinámico. Manejo SQL Server, modelado de
+          bases de datos y control de versiones con Git/GitHub. Cuento con una
+          visión integral del ciclo de vida del software, desde el análisis de
+          requerimientos hasta el desarrollo, pruebas y despliegue en
+          producción. Manejo adicionalmente Java y Python, lo que me permite
+          adaptarme con facilidad a distintos entornos tecnológicos y equipos
+          multidisciplinarios. Trabajo bajo metodologías ágiles (Scrum), con
+          enfoque en el aprendizaje continuo, la mejora constante y la entrega
+          de soluciones eficientes, modernas y orientadas al valor del negocio.
+        </p>
+        <div class="fila">
+          <div class="col">
+            <h3>Datos personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños:</strong>
+                28/05/2003
+              </li>
+              <li>
+                <strong>Correo:</strong>
+                msdelacruzcielo@gmail.com
+              </li>
+              <li>
+                <strong>Telefono:</strong>
+                +51 912314640
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-futbol"></i>
+                <span>FUTBOL</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-laptop"></i>
+                <span>PROGRAMAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-motorcycle"></i>
+                <span>MANEJAR MOTO</span>
+              </div>
             </div>
-            <a class="download-link" href="/MiPortafolio/IMAGENES/Curriculum Vitae.pdf" download="CurriculumVitaeMaycoldelaCruz.pdf">
-                <button>
-                    DESCARGAR CV <i class="fa-solid fa-download"></i>
-                    <span class="overlay"></span>
-                </button>
-            </a>
-            
+          </div>
         </div>
+        <a
+          class="download-link"
+          href="/IMAGENES/Curriculum Vitae.pdf"
+          download="CurriculumVitaeMaycoldelaCruz.pdf"
+        >
+          <button>
+            DESCARGAR CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </button>
+        </a>
+      </div>
     </section>
 
-    <!--AQUI IRA LA SECCION DE MI CURRICULUM-->
     <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
-            <h2>CURRICULUM</h2>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Educación</h3>
-                    <div class="item izq">
-                        <h4>Educación Secundaria</h4>
-                        <span class="casa">Florence Nightingale</span>
-                        <span class="fecha">2015-2019</span>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Estudios Superiores</h4>
-                        <span class="casa">Instituto Idat</span>
-                        <span class="fecha">2022-2024</span>
-                        <p>Carrera: Desarrollo de sistema de Información(computación e informatica)</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <h4>Certificaciones</h4>
-                        <span class="casa">Netzun</span>
-                        <span class="fecha">2024</span>
-                        <p>Excel Basico <br> Cybersecurity Ethical Hacker Fundamentals <br> Indroduccion a HTML <br> SQL para principiantes</p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col derecha">
-                    <h3>Experiencia</h3>
-                    <div class="item der">
-                        <h4>Experiencia Laboral</h4>
-                        <span class="casa">Nikkita SAC</span>
-                        <span class="fecha">2022-2024</span>
-                        <p>Vendedor en campo de cigarros electrónicos (Vapeadores) <br> Ejecutivo en cobranzas <br> Captación de nuevos clientes potenciales </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Proyectos Personales</h4>
-                        <span class="casa">Lenguaje Java</span>
-                        <span class="fecha">2024</span>
-                        <p>Agenda electronica que permite ingresar datos pre-seleccionados los cuales almacenaran 
-                           datos de 10 personas, donde se propone utilizar un vector para almacenar el valor de cada uno </p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <h4>Proyectos Personales</h4>
-                        <span class="casa">Lenguaje C#</span>
-                        <span class="fecha">2024</span>
-                        <p>Este proyecto implica la creación de una aplicación web en C# utilizando ASP.NET Core con el objetivo
-                            de gestionar usuarios mediante operaciones CRUD (Crear, Leer, Actualizar, Eliminar). La aplicación 
-                            sigue el patrón de diseño MVC (Modelo-Vista-Controlador) y emplea Entity Framework Core para la interacción 
-                            con una base de datos SQL Server. Se desarrollan vistas para las acciones básicas de gestión de usuarios, 
-                            tales como la visualización de la lista de usuarios, la creación de nuevos usuarios, la edición de detalles 
-                            existentes y la eliminación de registros. Además, se implementa un manejo de mensajes de confirmación y 
-                            errores para mejorar la experiencia del usuario.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>CURRICULUM</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Educación Secundaria</h4>
+              <span class="casa">Florence Nightingale</span>
+              <span class="fecha">2015-2019</span>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
             </div>
+            <div class="item izq">
+              <h4>Estudios Superiores</h4>
+              <span class="casa">Instituto Idat</span>
+              <span class="fecha">2022-2024</span>
+              <p>
+                Carrera: Desarrollo de sistema de Información(computación e
+                informatica)
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Certificaciones</h4>
+              <span class="casa">Netzun</span>
+              <span class="fecha">2024</span>
+              <p>
+                Excel Basico <br />
+                Cybersecurity Ethical Hacker Fundamentals <br />
+                Indroduccion a HTML <br />
+                SQL para principiantes
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Experiencia</h3>
+            <div class="item der">
+              <h4>Experiencia Laboral</h4>
+              <span class="casa">Nikkita SAC</span>
+              <span class="fecha">2022-2024</span>
+              <p>
+                Vendedor en campo de cigarros electrónicos (Vapeadores) <br />
+                Ejecutivo en cobranzas <br />
+                Captación de nuevos clientes potenciales
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Proyectos Personales</h4>
+              <span class="casa">Lenguaje Java</span>
+              <span class="fecha">2024</span>
+              <p>
+                Agenda electronica que permite ingresar datos pre-seleccionados
+                los cuales almacenaran datos de 10 personas, donde se propone
+                utilizar un vector para almacenar el valor de cada uno
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Proyectos Personales</h4>
+              <span class="casa">Lenguaje C#</span>
+              <span class="fecha">2024</span>
+              <p>
+                Este proyecto implica la creación de una aplicación web en C#
+                utilizando ASP.NET Core con el objetivo de gestionar usuarios
+                mediante operaciones CRUD (Crear, Leer, Actualizar, Eliminar).
+                La aplicación sigue el patrón de diseño MVC
+                (Modelo-Vista-Controlador) y emplea Entity Framework Core para
+                la interacción con una base de datos SQL Server. Se desarrollan
+                vistas para las acciones básicas de gestión de usuarios, tales
+                como la visualización de la lista de usuarios, la creación de
+                nuevos usuarios, la edición de detalles existentes y la
+                eliminación de registros. Además, se implementa un manejo de
+                mensajes de confirmación y errores para mejorar la experiencia
+                del usuario.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--AQUI IRA LA SECCION DE MI CONTACTO-->
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!--aqui ira el formulario-->
-                <div class="col">
-                    <input type="text" placeholder="Tu Nombre">
-                    <input type="text" placeholder="Numero Telefonico">
-                    <input type="text" placeholder="Dirección de Correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <!--aqui ira el mapa-->
-                <div class="col">
-                    <img src="/MiPortafolio/IMAGENES/Captura de pantalla 2024-05-27 202410.png" alt="">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-mobile"></i>
-                                Llamame: +51 912314640
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: maycolsteven55@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!--aqui ira el formulario-->
+          <div class="col">
+            <input type="text" placeholder="Tu Nombre" />
+            <input type="text" placeholder="Numero Telefonico" />
+            <input type="text" placeholder="Dirección de Correo" />
+            <input type="text" placeholder="Tema" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>
+              Enviar Mensaje <i class="fa-regular fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!--aqui ira el mapa-->
+          <div class="col">
+            <img
+              src="/MiPortafolio/IMAGENES/Captura de pantalla 2024-05-27 202410.png"
+              alt=""
+            />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-mobile"></i>
+                  Llamame: +51 912314640
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: maycolsteven55@gmail.com
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--FOOTER-->
     <footer>
-        <a href="#inicio" class="arriba">
-            <i class="fa-solid fa-angles-up"></i>
-        </a>
-        <div class="redes">
-            <a href="https://www.linkedin.com/in/maycol-de-la-cruz-4b5641213"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/maycolS17"><i class="fa-brands fa-github"></i></a>
-            <a href="https://youtu.be/adLIw53FI68"><i class="fa-brands fa-youtube"></i></a>
-        </div>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://www.linkedin.com/in/maycol-de-la-cruz-4b5641213"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/maycolS17"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://youtu.be/adLIw53FI68"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
